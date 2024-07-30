@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <>
-      <div className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-[url('https://plus.unsplash.com/premium_photo-1681437744904-d815bc19c2f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3VycmVuY3l8ZW58MHx8MHx8fDA%3D')]">
+      <div className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat bg-[url('https://media.istockphoto.com/id/1503371245/photo/percentage-sign-on-top-of-coin-stacks-before-blue-financial-graph.jpg?s=612x612&w=0&k=20&c=T9YGg7XIZTG_8E2h1xsTaQkdLGCTjkX_rnMr0adtAQk=')]">
         <div className="w-full">
           <div className="w-full max-w-md mx-auto border border-gray-50 rounded-lg p-5 backdrop-blur-sm bg-white/30">
             <form 
@@ -43,7 +43,7 @@ const App = () => {
               <div className="w-full h-0.5 relative">
                 <button 
                   type="button"
-                  className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-300 px-3 py-0.5 rounded-lg"
+                  className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-700 px-3 py-0.5 rounded-lg text-white"
                   onClick={swap}>
                   Swap
                 </button>
@@ -60,7 +60,7 @@ const App = () => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-red-900 text-white px-4 py-3 rounded-lg">
+                className="w-full bg-blue-900 text-white px-4 py-3 rounded-lg font-semibold text-xl">
                 Convert {from} to {to}
               </button>
             </form>
